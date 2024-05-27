@@ -1,4 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
+"use client"
 import React from "react";
 import Lottie from "react-lottie";
 import AvatarAnimation from '../../AvatarAnimation.json';
@@ -25,9 +26,9 @@ const Header: React.FC<HeaderProps> = () => {
   return (
     <>
       <nav className="bg-white dark:bg-customDarkBlue-100 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-1">
           <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <Lottie options={defaultOptions} height={400} width={400} />
+            <Lottie options={defaultOptions} height={75} width={75} />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Hello!</span>
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
