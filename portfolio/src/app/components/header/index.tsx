@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React from "react";
 import Lottie from "react-lottie";
-import avatarAnimation from '../../avatarAnimation.json';
+import AvatarAnimation from '../../AvatarAnimation.json';
 
 interface HeaderProps {}
 
@@ -15,7 +15,7 @@ interface DefaultOptionsInterface {
 const defaultOptions: DefaultOptionsInterface = {
   loop: true,
   autoplay: true,
-  animationData: avatarAnimation,
+  animationData: AvatarAnimation,
   rendererSettings: {
     preserveAspectRatio: "xMidYMid slice"
   }
