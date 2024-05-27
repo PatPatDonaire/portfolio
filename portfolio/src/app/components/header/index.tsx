@@ -25,7 +25,7 @@ const defaultOptions: DefaultOptionsInterface = {
 const Header: React.FC<HeaderProps> = () => {
   return (
     <>
-      <nav className="bg-white dark:bg-customDarkBlue-100 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+      <nav className="bg-white dark:bg-customDarkBlue-100 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 shadow-xl">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-1">
           <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
             <Lottie options={defaultOptions} height={75} width={75} />
